@@ -1,20 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useTheme } from 'next-themes'
-
-function ThemeIcon(props) {
-  return (
-    <svg
-      viewBox='0 0 24 24'
-      aria-hidden='true'
-      {...props}>
-      <path
-        fillRule='evenodd'
-        clipRule='evenodd'
-        d='M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm-5-8a5 5 0 0 0 5 5V7a5 5 0 0 0-5 5Z'
-      />
-    </svg>
-  )
-}
+import { MoonIcon, SunIcon } from '@/icons'
 
 export function ThemeToggle() {
   let [mounted, setMounted] = useState(false)
@@ -32,10 +18,14 @@ export function ThemeToggle() {
   return (
     <button
       type='button'
-      className='group'
+      className='group flex items-center'
       onClick={() => setTheme(otherTheme)}>
       <span className='sr-only'>Switch to {otherTheme} theme</span>
-      <ThemeIcon className='h-9 w-9 fill-white opacity-50 transition-opacity group-hover:opacity-100 lg:fill-gray-900 lg:dark:fill-white' />
+      {resolvedTheme === 'light' ? (
+        <MoonIcon className='h-7 w-7 !text-zinc-100' />
+      ) : (
+        <SunIcon className='h-7 w-7 !text-zinc-100' />
+      )}
     </button>
   )
 }

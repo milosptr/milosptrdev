@@ -30,7 +30,7 @@ export const ContactSection = () => {
                   <div>
                     <label
                       htmlFor='subject'
-                      className='block text-sm font-semibold leading-6 text-white'>
+                      className='block text-sm font-semibold leading-6 dark:text-white'>
                       {t('general.subject')}
                     </label>
                     <div className='mt-2.5'>
@@ -41,14 +41,14 @@ export const ContactSection = () => {
                         autoComplete='subject'
                         value={subject}
                         onInput={(e) => setSubject(e.target.value)}
-                        className='block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6'
+                        className='border-1 block w-full rounded-md border border-solid border-zinc-200 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 dark:border-0 sm:text-sm sm:leading-6'
                       />
                     </div>
                   </div>
                   <div className=''>
                     <label
                       htmlFor='message'
-                      className='block text-sm font-semibold leading-6 text-white'>
+                      className='block text-sm font-semibold leading-6 dark:text-white'>
                       {t('general.message')}
                     </label>
                     <div className='mt-2.5'>
@@ -58,7 +58,7 @@ export const ContactSection = () => {
                         rows='4'
                         value={body}
                         onInput={(e) => setBody(e.target.value)}
-                        className='block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6'></textarea>
+                        className='block w-full rounded-md border border-solid border-zinc-200 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 dark:border-0 sm:text-sm sm:leading-6'></textarea>
                     </div>
                   </div>
                 </div>

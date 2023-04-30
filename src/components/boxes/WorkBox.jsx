@@ -6,7 +6,7 @@ export const WorkBox = () => {
   const { t } = useTranslation('common')
 
   return (
-    <div className='rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40'>
+    <div className='rounded-2xl border border-zinc-200 p-6 dark:border-zinc-700/40'>
       <div className='flex items-center gap-3 font-semibold text-zinc-900 dark:text-zinc-100'>
         <WorkIcon className='h-6 w-6' />
         <div className='mt-0.5 leading-none'>{t('titles.work')}</div>

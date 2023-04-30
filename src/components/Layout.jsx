@@ -125,7 +125,7 @@ export function Layout({ children }) {
         main={<Intro />}
         footer={<IntroFooter />}
       />
-      <div className='absolute right-6 top-3.5 z-50 -m-2.5 flex items-center gap-4 p-2.5 lg:fixed lg:left-6 lg:right-auto'>
+      <div className='absolute right-6 top-3.5 z-50 -m-2.5 flex items-center gap-5 p-2.5 lg:fixed lg:left-6 lg:right-auto'>
         <LanguageToggle />
         <ThemeToggle />
       </div>

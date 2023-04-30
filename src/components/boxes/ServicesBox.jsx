@@ -6,7 +6,7 @@ export const ServicesBox = ({ icon, title, description }) => {
   const { t } = useTranslation('common')
   const IconComponent = Icons[icon]
   return (
-    <div className='rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40'>
+    <div className='rounded-2xl border border-zinc-200 p-6 dark:border-zinc-700/40'>
       <div className='flex items-center gap-3 font-semibold text-zinc-900 dark:text-zinc-100'>
         {IconComponent ? <IconComponent className='h-6 w-6' /> : null}
         <div className='mt-0.5 leading-none'>{t(title, title)}</div>
