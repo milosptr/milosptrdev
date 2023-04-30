@@ -1,0 +1,49 @@
+import { TranslationParagraph } from '@/components/TranslationParagraph'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'react-i18next'
+
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ['common'])),
+      type: 'indexPage'
+      // Will be passed to the page component as props
+    }
+  }
+}
+
+---
+
+## <TranslationParagraph value="titles.about" />
+
+<TranslationParagraph value='about.firstParagraph' />
+
+---
+
+## / {{ date: '2014 - 2018', spacing: 'none' }}
+
+<TranslationParagraph value='about.secondParagraph' />
+
+---
+
+## / {{ date: '2018 - 2019', spacing: 'none' }}
+
+<TranslationParagraph value='about.thirdParagraph' />
+
+<TranslationParagraph value='about.fourthParagraph' />
+
+---
+
+## / {{ date: '2019 - 2022', spacing: 'none' }}
+
+<TranslationParagraph value='about.fifthParagraph' />
+
+<TranslationParagraph value='about.sixthParagraph' />
+
+---
+
+## / {{ date: '2022 - today', spacing: 'none' }}
+
+<TranslationParagraph value='about.seventhParagraph' />
+
+<TranslationParagraph value='about.eighthParagraph' />

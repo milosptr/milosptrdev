@@ -1,0 +1,80 @@
+{
+  "general": {
+    "today": "Heute",
+    "download_cv": "Lebenslauf herunterladen",
+    "issued": "Ausgestellt",
+    "years": "jahre",
+    "subject": "Betreff",
+    "message": "Nachricht",
+    "send_message": "Nachricht senden"
+  },
+  "home": {
+    "titleHello": "Hallo ✌️",
+    "title": "Ich bin Miloš",
+    "subtitle": "Autodidaktischer Senior Webentwickler: Grenzen überschreiten, um herausragende, benutzerorientierte digitale Lösungen zu liefern"
+  },
+  "titles": {
+    "about": "Über mich",
+    "education_and_work": "Bildung und Berufserfahrung",
+    "work": "Berufserfahrung",
+    "education": "Bildung",
+    "services": "Meine Dienstleistungen",
+    "contact": "Kontakt",
+    "front_end_tech_stack": "Frontend-Technologie-Stack",
+    "back_end_tech_stack": "Backend-Technologie-Stack",
+    "designer_tools": "Designer-Tools",
+    "web_polishing": "Web-Feinschliff"
+  },
+  "subtitles": {
+    "services": "Wenn Sie sich fragen was ich machen…",
+    "contact": "Füllen Sie einfach das untenstehende Formular mit Ihrer Nachricht aus, klicken Sie auf 'Senden' und ich werde mich schneller bei Ihnen melden als eine React-Komponente, die auf einer Hochgeschwindigkeitsverbindung gerendert wird. 😄"
+  },
+  "about": {
+    "firstParagraph": "Ich bin <strong>Miloš</strong>, ein 24-jähriger autodidaktischer <strong>Full Stack Entwickler</strong> aus Serbien.",
+    "secondParagraph": "Nach der Schule habe ich einen Job als Webentwickler angenommen, bei dem ich ein Jahr lang geblieben bin. In diesem Jahr habe ich über 100 einfache HTML- & CSS-Websites nach vorgegebenen Designs erstellt und bis zu 15 WordPress-Websites entwickelt (einige mit benutzerdefinierten Themes und andere gekauft). Nach einem Jahr Arbeit hier wurde mir klar, dass ich <strong>feststeckte, absank</strong> und <strong>nichts Neues lernte</strong>.",
+    "thirdParagraph": "Im März 2018 fand mein ehemaliger Kollege für mich einen neuen Job in seiner Firma, wo ich vorankommen und neue Technologien erlernen konnte. Auch hier blieb ich ein Jahr und begann, die Welt von JavaScript und PHP zu erkunden. Ich habe viele Dinge gelernt, indem ich eine mobile Web-App in PHP und eine Website mit einem benutzerdefinierten Backend entwickelt habe. Kurz gesagt, danach gab es keine neuen Projekte und ich steckte wieder fest.",
+    "fourthParagraph": "Ich beschloss, dass es <strong>Zeit für eine Veränderung</strong> war, und begann in meiner Freizeit ReactJS zu lernen. Ich verliebte mich <strong>in JavaScript und React</strong>. Mein Kollege und ich hatten die Idee, eine <strong>Flugbuchungsplattform</strong> zu entwickeln. Also begann ich schrittweise, Angular 1 zu erlernen und baute das gesamte <strong>Buchungssystem mit Online-Zahlung</strong> in Angular 1. Als ich besser in JavaScript wurde, stellte ich fest, dass Angular 1 eine <strong>schlechte Idee</strong> war, also wechselte ich wieder zurück zu ReactJS und begann, das gesamte System erneut aufzubauen.",
+    "fifthParagraph": "Im April 2019 erhielt ich ein <strong>Jobangebot</strong>, das es mir ermöglichte, mich auf <strong>mein persönliches Wachstum und meine Entwicklung</strong> zu konzentrieren, also ergriff ich die Gelegenheit. Während meiner Zeit in dieser Firma lernte ich unglaublich viel und entwickelte mich als Entwickler weiter. Dort habe ich die Denkweise eines <strong>Full Stack Entwicklers</strong> wirklich angenommen und mich in verschiedene Technologien wie Laravel, VueJS und NativeScript (App-Entwicklung) vertieft.",
+    "sixthParagraph": "Im Juni 2022 traf ich die schwierige Entscheidung, meinen Job als <strong>Full Stack Entwickler</strong> bei Morph Networks, wo ich seit April 2019 gearbeitet hatte, zu verlassen. Ich war dankbar für das Wachstum und die Möglichkeiten, die ich dort erlebt hatte, aber ich wusste, dass es Zeit für eine neue Herausforderung war. Nachdem ich mir etwas Zeit zum Nachdenken und Erkunden meiner Optionen genommen hatte, entschied ich mich für einen mutigen Schritt.",
+    "seventhParagraph": "Im Oktober 2022 zog ich nach <strong>Reykjavik, Island</strong> und verließ meine vertraute Umgebung in Serbien. Dies war eine aufregende und etwas einschüchternde Entscheidung, aber ich war begierig darauf, das Abenteuer anzunehmen und sowohl persönlich als auch beruflich zu wachsen. Ich begann eine neue Position bei <strong>Sidekick Health</strong> als <strong>Senior Web-Entwickler</strong> mit Spezialisierung auf <strong>TypeScript</strong> und <strong>ReactJS</strong>.",
+    "eighthParagraph": "Abschließend war meine bisherige Reise eine unglaubliche Achterbahnfahrt des Lernens und der Selbstfindung. Ich habe mich von einem autodidaktischen <strong>Full Stack Entwickler</strong> in Serbien zu einem <strong>Senior Web-Entwickler</strong> in der florierenden digitalen Gesundheitsbranche auf Island entwickelt. Diese Erfahrungen haben mich als Person und als Entwickler geprägt, und ich freue mich darauf zu sehen, wohin mich die Zukunft führen wird."
+  },
+  "services": [
+    {
+      "id": 0,
+      "title": "Frontend",
+      "icon": "FrontendIcon",
+      "description": "Ich helfe Start-ups, kleinen Unternehmen und Agenturen dabei, hochwertige Websites und eine außergewöhnliche Benutzererfahrung zu erreichen. Die Technologien, mit denen ich am meisten vertraut bin, sind HTML, CSS, JavaScript, VueJS, React und NativeScript (für mobile Anwendungen)."
+    },
+    {
+      "id": 1,
+      "title": "Backend",
+      "icon": "BackendIcon",
+      "description": "Es geht nicht nur darum, Server, Anwendungen und Datenbanken miteinander kommunizieren zu lassen. Es geht darum, ein Produkt zu entwickeln, das nahtlos funktioniert, auf die Marktbedürfnisse eingeht und eine angenehme Benutzererfahrung schafft, die die Loyalität Ihrer Kunden verdient."
+    },
+    {
+      "id": 2,
+      "title": "UI/UX",
+      "icon": "UiUxIcon",
+      "description": "Sie möchten, dass Ihre Website genau so aussieht, wie sie ursprünglich von den Designern gestaltet wurde? Ich bin verantwortlich für die Anwendung interaktiver und visueller Gestaltungsprinzipien auf Ihren Websites und Webanwendungen für ein positives und stimmiges Benutzererlebnis."
+    },
+    {
+      "id": 3,
+      "title": "API-Entwicklung",
+      "icon": "ApiIcon",
+      "description": "Die Erstellung von Schnittstellen zwischen verschiedenen Systemen zum Datenaustausch ist eine moderne Anforderung, die die Entwicklung von Anwendungsprogrammierschnittstellen (APIs) und Webservices erfüllt."
+    },
+    {
+      "id": 4,
+      "title": "WordPress oder individuelles CMS",
+      "icon": "WordpressIcon",
+      "description": "Sie benötigen eine Website, die Sie einfach bearbeiten und verwalten können, wie zum Beispiel eine Blog-Website, ein Portfolio oder sogar einen großen Online-Shop? Ich erstelle für Sie eine einzigartige WordPress- oder individuelle CMS-Website, die Ihren Anforderungen entspricht."
+    },
+    {
+      "id": 5,
+      "title": "Bereitstellung",
+      "icon": "DeploymentIcon",
+      "description": "Das Bereitstellen - oder das Übertragen neuer Codes auf einen Server - ist ein integraler Bestandteil des täglichen Arbeitsablaufs eines Entwicklers. Nach der Bereitstellung muss die Website mit der Google-Suche verbunden und alle Seitengeschwindigkeitstests bestanden werden."
+    }
+  ]
+}

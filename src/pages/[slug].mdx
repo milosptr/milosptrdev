@@ -1,0 +1,19 @@
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ['common'])),
+      type: 'randomPage'
+    }
+  }
+}
+
+export async function getStaticPaths() {
+  const locales = ['en', 'de']
+  const paths = locales.map((locale) => ({
+    params: { slug: locale }
+  }))
+  return {
+    paths,
+    fallback: false
+  }
+}

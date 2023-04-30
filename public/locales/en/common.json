@@ -1,0 +1,80 @@
+{
+  "general": {
+    "today": "Today",
+    "download_cv": "Download CV",
+    "issued": "Issued",
+    "years": "years",
+    "subject": "Subject",
+    "message": "Message",
+    "send_message": "Send Message"
+  },
+  "home": {
+    "titleHello": "Hello ✌️",
+    "title": "I'm Miloš",
+    "subtitle": "Self-taught Senior Web Developer: Pushing Boundaries to Deliver Outstanding, User-Focused Digital Solutions"
+  },
+  "titles": {
+    "about": "My journey and myself",
+    "education_and_work": "Education and Work Experience",
+    "work": "Work Experience",
+    "education": "Education",
+    "services": "My Services",
+    "contact": "Let's Connect",
+    "front_end_tech_stack": "Front End Tech Stack",
+    "back_end_tech_stack": "Back End Tech Stack",
+    "designer_tools": "Designer Tools",
+    "web_polishing": "Web Polishing"
+  },
+  "subtitles": {
+    "services": "If you’re wondering what I do…",
+    "contact": "Just fill out the form below with your message, click 'Send', and I'll get back to you faster than a React component rendering on a high-speed connection. 😄"
+  },
+  "about": {
+    "firstParagraph": "I’m <strong>Miloš</strong>, a 26 years old self-taught <strong>Full Stack developer</strong>, from Serbia <strong>residing</strong> in Reykjavik, Iceland.",
+    "secondParagraph": "After high school, I got a job as a web developer, where I stayed 1 year. Within this year I've created over 100 simple HTML & CSS websites following given designs, developed up to 15 WordPress websites (few with custom themes and others were purchased). After 1 year working here I have realized that I’m <strong>stuck, sinking</strong> and <strong>not learning anything</strong> new.",
+    "thirdParagraph": "In March 2018, my ex-colleague found me a new job at his firm where I could start going forward and learn some new technologies. I also stayed here 1 year and started exploring the JavaScript and PHP world. I have learned many things building a mobile web app in PHP and a website with a custom backend. Long story short, after that, there were no new projects and I was stuck again.",
+    "fourthParagraph": "I decided it was <strong>time for a change</strong>, so I started studying ReactJS in my free time. I fell <strong> in love with JavaScript and React</strong>. Colleague and I got an idea to build a <strong>flight booking engine</strong>, so I started progressively learning Angular 1 and built the whole <strong>booking system with online payment</strong> in Angular 1. As I got better in JavaScript I figured that Angular 1 was a <strong>bad idea</strong>, so I switched again back to ReactJS and started rebuilding the whole system again.",
+    "fifthParagraph": "I received a <strong>job offer</strong> in April 2019 that allowed me to <strong>focus on my personal growth and development</strong>, so I seized the opportunity. During my time at that company, I learned a tremendous amount and evolved as a developer. It was there that I truly embraced the mindset of a <strong>Full Stack Developer</strong>, diving into various technologies such as Laravel, VueJS, and NativeScript (app development).",
+    "sixthParagraph": "In June 2022, I made the difficult decision to leave my job as a <strong>Full Stack Developer</strong> at Morph Networks, where I had been working since April 2019. I was grateful for the growth and opportunities I had experienced there, but I knew it was time for a new challenge. After taking some time to reflect and explore my options, I decided to make a bold move.",
+    "seventhParagraph": "In October 2022, I relocated to <strong>Reykjavik, Iceland</strong>, leaving behind my familiar surroundings in Serbia. This was an exciting and somewhat daunting decision, but I was eager to embrace the adventure and grow both personally and professionally. I started a new position with <strong>Sidekick Health</strong> as a <strong>Senior Web Developer</strong>, specializing in <strong>TypeScript</strong> and <strong>ReactJS</strong>.",
+    "eighthParagraph": "In conclusion, my journey so far has been an incredible rollercoaster of learning and self-discovery. I've transitioned from being a self-taught <strong>Full Stack Developer</strong> in Serbia to a <strong>Senior Web Developer</strong> in the thriving digital health industry in Iceland. These experiences have shaped me as a person and a developer, and I'm excited to see where the future will take me."
+  },
+  "services": [
+    {
+      "id": 0,
+      "title": "Front End",
+      "icon": "FrontendIcon",
+      "description": "Helping start-ups, small businesses and agencies achieve high quality websites and exceptional user experience. Technologies I am most experienced with are HTML, CSS, JavaScript, VueJS, React and NativeScript (for mobile applications)."
+    },
+    {
+      "id": 1,
+      "title": "Back End",
+      "icon": "BackendIcon",
+      "description": "It's not just about making a server, application, and database communicate with each other. It's about building a product that works seamlessly, meets market needs and creating an enjoyable user experience that earns your clients loyalty."
+    },
+    {
+      "id": 2,
+      "title": "UI/UX",
+      "icon": "UiUxIcon",
+      "description": "You want the website to look exactly how designers initially designed it? I am responsible for applying interactive and visual design principles on your websites and web applications for a positive and cohesive user experience."
+    },
+    {
+      "id": 3,
+      "title": "API development",
+      "icon": "ApiIcon",
+      "description": "Creating interfaces between different systems to share data is a modern requirement that the development of application programming interfaces (APIs) and web services fulfils."
+    },
+    {
+      "id": 4,
+      "title": "WordPress or Custom CMS",
+      "icon": "WordpressIcon",
+      "description": "You need a website that you can easily edit and manage such as a blog website, portfolio or even a big online shop? I will build you a WordPress or Custom CMS unique website that suits your needs."
+    },
+    {
+      "id": 5,
+      "title": "Deployment",
+      "icon": "DeploymentIcon",
+      "description": "Deploying— or pushing new code to a server— is an integral part of a developer’s daily workflow. After deployment, it needs to be connected with Google search and pass all page speed tests."
+    }
+  ]
+}
