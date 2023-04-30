@@ -10,6 +10,7 @@ import { appWithTranslation } from 'next-i18next'
 import '@/styles/tailwind.css'
 import 'focus-visible'
 import { ErrorPage } from '@/components/ErrorPage'
+import { MetaTags } from '@/components/MetaTags'
 
 function App({ Component, pageProps, router }) {
   if (pageProps?.statusCode === 404) return <ErrorPage />
@@ -17,11 +18,7 @@ function App({ Component, pageProps, router }) {
     <>
       <Head>
         <title>Milos Petrovic | Full Stack Web Developer</title>
-        <meta charSet='utf-8' />
-        <meta
-          name='description'
-          content='I’m Milos, a 25 years old self-taught Full Stack Web developer.'
-        />
+        <MetaTags />
       </Head>
       <ThemeProvider
         attribute='class'
