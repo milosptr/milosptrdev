@@ -19,10 +19,10 @@ export const EducationBox = () => {
           dateTo='2016'
         />
         <WorkListItem
-          company='Mathematics University - Belgrade'
-          role='Information Technologies and Computer Science'
-          dateFrom='2016'
-          dateTo='2018'
+          company='Reykjavik University'
+          role='Computer Science'
+          dateFrom='2023'
+          dateTo='yoday'
         />
         <hr />
         <WorkListItem
@@ -47,6 +47,12 @@ export const EducationBox = () => {
           role='Crash Course'
           issuingDate={'Aug 2020'}
           issuedBy={'Udemy'}
+        />
+        <WorkListItem
+          company='Principles of UI/UX Design'
+          role='Meta (Facebook)'
+          issuingDate={'Jun 2023'}
+          issuedBy={'Coursera'}
         />
       </ol>
     </div>
