@@ -22,7 +22,7 @@ export const EducationBox = () => {
           company='Reykjavik University'
           role='Computer Science'
           dateFrom='2023'
-          dateTo='yoday'
+          dateTo='Today'
         />
         <hr />
         <WorkListItem
