@@ -14,7 +14,7 @@ export function Intro() {
       <p className='mt-4 text-base text-gray-300'>{t('home.subtitle')}</p>
       <p className='mt-4 text-base text-gray-300'>{t('titles.front_end_tech_stack')}:</p>
       <p className='text-sm text-zinc-400'>
-        HTML, CSS, Tailwind, JavaScript, TypeScript, ReactJS, VueJS, NextJS, NativeScript, Python
+        C, Pascal, Python, HTML, CSS, Tailwind, JavaScript, TypeScript, ReactJS, VueJS, Svelte, NextJS, NativeScript
       </p>
       <p className='mt-4 text-base text-gray-300'>{t('titles.back_end_tech_stack')}:</p>
       <p className='text-sm text-zinc-400'>PHP, SQL, Laravel, WordPress, Shopfiy</p>
