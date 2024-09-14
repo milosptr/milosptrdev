@@ -14,10 +14,12 @@ export function Intro() {
       <p className='mt-4 text-base text-gray-300'>{t('home.subtitle')}</p>
       <p className='mt-4 text-base text-gray-300'>{t('titles.front_end_tech_stack')}:</p>
       <p className='text-sm text-zinc-400'>
-        C, Pascal, Python, HTML, CSS, Tailwind, JavaScript, TypeScript, ReactJS, VueJS, Svelte, NextJS, NativeScript
+        C, Python, HTML, CSS, Tailwind, JavaScript, TypeScript, ReactJS, VueJS, Svelte, NextJS
       </p>
       <p className='mt-4 text-base text-gray-300'>{t('titles.back_end_tech_stack')}:</p>
-      <p className='text-sm text-zinc-400'>PHP, SQL, Laravel, WordPress, Shopfiy</p>
+      <p className='text-sm text-zinc-400'>PHP, Java, SQL, Laravel, WordPress, Shopfiy</p>
+      <p className='mt-4 text-base text-gray-300'>{t('titles.mobile_tech_stack')}:</p>
+      <p className='text-sm text-zinc-400'>React Native, NativeScript</p>
       <p className='mt-4 text-base text-gray-300'>{t('titles.designer_tools')}:</p>
       <p className='text-sm text-zinc-400'>Figma, Adobe XD, Adobe Photoshop, Adobe Illustrator</p>
       <p className='mt-4 text-base text-gray-300'>{t('titles.web_polishing')}:</p>
